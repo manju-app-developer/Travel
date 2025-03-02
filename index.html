@@ -7,47 +7,27 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header Section -->
+
+    <!-- Header -->
     <header>
         <div class="logo">🌍 Travel Explore</div>
-        <input type="text" id="search" placeholder="Search Travel Destinations...">
+        <input type="text" id="search" placeholder="Search Travel Videos...">
     </header>
 
-    <!-- Trending Section -->
+    <!-- Category Filters -->
+    <div class="filters">
+        <button class="filter-btn" data-category="all">All</button>
+        <button class="filter-btn" data-category="adventure">Adventure</button>
+        <button class="filter-btn" data-category="beach">Beaches</button>
+        <button class="filter-btn" data-category="mountain">Mountains</button>
+        <button class="filter-btn" data-category="city">City Life</button>
+    </div>
+
+    <!-- Video Section -->
     <section class="trending">
         <h2>🔥 Trending Travel Videos</h2>
-        <div class="video-grid">
-            <div class="video-card">
-                <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
-                <p>Explore the Beauty of Bali</p>
-            </div>
-            <div class="video-card">
-                <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
-                <p>Hidden Gems of Thailand</p>
-            </div>
-            <div class="video-card">
-                <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
-                <p>Himalayan Adventure Trek</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Top Destinations Section -->
-    <section class="destinations">
-        <h2>🏝️ Top Destinations</h2>
-        <div class="destination-grid">
-            <div class="destination-card">
-                <img src="bali.jpg" alt="Bali">
-                <p>Bali, Indonesia</p>
-            </div>
-            <div class="destination-card">
-                <img src="switzerland.jpg" alt="Switzerland">
-                <p>Swiss Alps, Switzerland</p>
-            </div>
-            <div class="destination-card">
-                <img src="maldives.jpg" alt="Maldives">
-                <p>Maldives Beaches</p>
-            </div>
+        <div class="video-grid" id="videoContainer">
+            <!-- Videos will be dynamically loaded here -->
         </div>
     </section>
 
@@ -56,5 +36,6 @@
         <p>© 2025 Travel Explore | Bringing the World to You</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
