@@ -1,56 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Travel Explorer</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explore - Discover the World</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-  <div class="logo">Travel Explorer 🌍</div>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Destinations</a>
-    <a href="#">Trending</a>
-    <a href="#">Contact</a>
-  </nav>
-</header>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">🌍 Travel Explore</div>
+        <input type="text" id="search" placeholder="Search Travel Destinations...">
+    </header>
 
-<section class="hero">
-  <h1>Explore the World Through Videos</h1>
-  <p>Discover the best travel experiences from different YouTube channels in one place.</p>
-  <input type="text" placeholder="Search Destinations...">
-</section>
+    <!-- Trending Section -->
+    <section class="trending">
+        <h2>🔥 Trending Travel Videos</h2>
+        <div class="video-grid">
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+                <p>Explore the Beauty of Bali</p>
+            </div>
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+                <p>Hidden Gems of Thailand</p>
+            </div>
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+                <p>Himalayan Adventure Trek</p>
+            </div>
+        </div>
+    </section>
 
-<section class="categories">
-  <h2>Top Categories</h2>
-  <div class="category-grid">
-    <div class="category">Beaches</div>
-    <div class="category">Mountains</div>
-    <div class="category">Cities</div>
-    <div class="category">Adventure</div>
-    <div class="category">Luxury</div>
-  </div>
-</section>
+    <!-- Top Destinations Section -->
+    <section class="destinations">
+        <h2>🏝️ Top Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination-card">
+                <img src="bali.jpg" alt="Bali">
+                <p>Bali, Indonesia</p>
+            </div>
+            <div class="destination-card">
+                <img src="switzerland.jpg" alt="Switzerland">
+                <p>Swiss Alps, Switzerland</p>
+            </div>
+            <div class="destination-card">
+                <img src="maldives.jpg" alt="Maldives">
+                <p>Maldives Beaches</p>
+            </div>
+        </div>
+    </section>
 
-<section class="videos">
-  <h2>Trending Travel Videos</h2>
-  <div class="video-grid">
-    <div class="video-card">
-      <iframe width="100%" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
-      <p>Bali Travel Vlog</p>
-    </div>
-    <div class="video-card">
-      <iframe width="100%" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
-      <p>Goa Beaches Tour</p>
-    </div>
-  </div>
-</section>
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Travel Explore | Bringing the World to You</p>
+    </footer>
 
-<footer>
-  <p>© 2025 Travel Explorer | Follow us on</p>
-  <a href="#">Instagram</a> | <a href="#">YouTube</a> | <a href="#">Twitter</a>
-</footer>
 </body>
 </html>
